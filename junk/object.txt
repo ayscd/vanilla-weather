@@ -1,0 +1,24 @@
+{
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "coordinates": {
+        "longitude": -43.2093727,
+        "latitude": -22.9110137
+    },
+    "condition": {
+        "description": "scattered clouds",
+        "icon_url": "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png",
+        "icon": "scattered-clouds-day"
+    },
+    "temperature": {
+        "current": 25.77,
+        "humidity": 90,
+        "feels_like": 26.75,
+        "pressure": 1015
+    },
+    "wind": {
+        "speed": 1.54,
+        "degree": 10
+    },
+    "time": 1742986450
+}

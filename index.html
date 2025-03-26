@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--IMPORTING AXIOS-->
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    
     <title>Vanilla Weather</title>
     <link rel="stylesheet" href="src/style.css">
 </head>
@@ -17,15 +21,15 @@
         <main>
             <div  class="main-info">
                 <div>
-                    <h1 id="city">Belo Horizonte</h1>
+                    <h1 id="city"></h1>
                     <p>
-                        Monday, 22:12, clear sky 
+                        Monday, 22:12, <span id="description">clear sky</span> 
                         <br/>
-                        Humidity: <span class="humidity">50%</span>, Wind: <span class="wind">3km/h</span>  
+                        Humidity: <strong id="humidity">50%</strong>, Wind: <strong id="wind">3km/h</strong>  
                     </p>
                 </div>
                 <div class="temperature">
-                    <span class="icon">🌖</span> <span class="real-temp">24</span> <span class="temp-unit">ºC</span>
+                    <span id="icon" class="icon">🌖</span> <span id="real-temp" class="real-temp"></span> <span id="temp-unit" class="temp-unit">ºC</span>
                 </div>
             </div>
         </main>

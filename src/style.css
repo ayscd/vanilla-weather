@@ -9,7 +9,7 @@ header {
 }
 
 
-p {
+p, strong {
     color: rgba(29, 29, 27, 0.6);
 }
 
@@ -33,7 +33,7 @@ footer {
     box-shadow: 25px 25px 20px rgba(34, 12, 16, 0.2);
 }
 
-.search-box, .search-button {
+.search-input, .search-button {
     padding: 10px;
     border-radius: 10px;
     border-width: 1px;
@@ -41,7 +41,7 @@ footer {
     font-size: 14px;
 }
 
-.search-box {
+.search-input {
     width: 270px;
 }
 
@@ -61,14 +61,9 @@ footer {
     justify-content: space-between;
 }
 
-.humidity, .wind {
-    color: rgba(29, 29, 27, 0.8);
-    font-weight: bold;
-}
-
 .temperature {
     font-weight: bold;
-    padding: 40px 40px 0px 0px;
+    padding: 40px 20px 0px 0px;
 }
 
 .icon {
