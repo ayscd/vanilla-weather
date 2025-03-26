@@ -1,0 +1,104 @@
+body {
+    color: rgb(34, 12, 16);
+    font-family:'Genova', sans-serif;
+    background-color: rgba(212, 212, 216, 0.4);
+}
+
+header {
+    padding: 10px 0px;
+}
+
+
+p {
+    color: rgba(29, 29, 27, 0.6);
+}
+
+footer {
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    color: rgb(81, 75, 35);
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+.app-box {
+    display: block;
+    background-color: rgb(247, 248, 246);
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgba(247, 248, 246, 0.3);
+    box-shadow: 25px 25px 20px rgba(34, 12, 16, 0.2);
+}
+
+.search-box, .search-button {
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: rgba(81, 75, 35, 0.4);
+    font-size: 14px;
+}
+
+.search-box {
+    width: 270px;
+}
+
+.search-button {
+    background-color: rgba(212, 212, 216, 0.4);
+}
+
+.search-button:hover {
+    color: rgb(247, 248, 246);
+    background-color: rgba(34, 12, 16);
+    box-shadow: 5px 5px 10px rgba(34, 12, 16, 0.2);
+}
+
+.main-info {
+    padding: 40px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity, .wind {
+    color: rgba(29, 29, 27, 0.8);
+    font-weight: bold;
+}
+
+.temperature {
+    font-weight: bold;
+    padding: 40px 40px 0px 0px;
+}
+
+.icon {
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.real-temp {
+    font-size: 70px;
+    margin-right: 5px;
+}
+
+.temp-unit {
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(29, 29, 27, 0.9);
+}
+
+.git-profile, .git-project, .host-link {
+     color: rgb(81, 75, 35);
+}
+
+.git-profile:hover, .git-project:hover, .host-link:hover {
+      color: rgba(29, 29, 27, 0.4);
+}
+
+.git-profile:visited, .git-project:visited, .host-link:visited {
+        color: rgba(27, 29, 27, 0.4);
+}
+
+.git-profile:active, .git-project:active, .host-link:active {
+        color: rgba(29, 29, 27, 0.4);
+}
