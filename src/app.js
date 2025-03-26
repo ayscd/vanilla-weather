@@ -15,6 +15,7 @@ function displayDate(time) {
 function updateInfo(info) {
   let temp = document.querySelector("#real-temp");
   let realTemp = info.data.temperature.current;
+  let icon = document.querySelector("#icon");
   let city = document.querySelector("#city");
   let description = document.querySelector("#description");
   let humidity = document.querySelector("#humidity");
@@ -23,6 +24,7 @@ function updateInfo(info) {
   let time = new Date(info.data.time * 1000);
 
   temp.innerHTML = Math.round(realTemp);
+  icon.innerHTML = `<img src="${info.data.condition.icon_url}" class="icon">`;
   city.innerHTML = info.data.city;
   description.innerHTML = info.data.condition.description;
   humidity.innerHTML = `${info.data.temperature.humidity}%`;

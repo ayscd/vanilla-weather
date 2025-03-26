@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    padding: 10px 0px;
+    padding: 10px 0px 30px 0px;
 }
 
 
@@ -14,11 +14,11 @@ p, strong {
 }
 
 footer {
-    font-family: 'Courier New', monospace;
-    font-size: 11px;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
     color: rgb(81, 75, 35);
     text-align: center;
-    padding: 40px 0px 0px 0px;
+    padding: 30px 0px 10px 0px;
 }
 
 .app-box {
@@ -56,30 +56,34 @@ footer {
 }
 
 .main-info {
-    padding: 40px 0px 20px 0px;
+    padding: 30px 0px 30px 0px;
     display: flex;
     justify-content: space-between;
 }
 
-.temperature {
-    font-weight: bold;
-    padding: 40px 20px 0px 0px;
+.temperature-info {
+    padding: 20px 0px 0px 0px;
+    display: flex;
 }
 
 .icon {
-    font-size: 50px;
+    width: 70px;
+    height: 70px;
     margin-right: 10px;
 }
 
 .real-temp {
-    font-size: 70px;
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 90px;
     margin-right: 5px;
 }
 
 .temp-unit {
+    margin-top: 10px;
     font-size: 25px;
     font-weight: 400;
-    color: rgba(29, 29, 27, 0.9);
+    color: rgb(29, 29, 27);
 }
 
 .git-profile, .git-project, .host-link {
