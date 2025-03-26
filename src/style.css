@@ -13,6 +13,10 @@ p, strong {
     color: rgba(29, 29, 27, 0.6);
 }
 
+hr {
+    color: rgba(29, 29, 27, 0.2);
+}
+
 footer {
     font-family: Roboto, sans-serif;
     font-size: 12px;
