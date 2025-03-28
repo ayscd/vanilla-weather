@@ -1,24 +1,129 @@
 {
-    "city": "Rio de Janeiro",
+    "city": "Belo Horizonte",
     "country": "Brazil",
     "coordinates": {
-        "longitude": -43.2093727,
-        "latitude": -22.9110137
+        "longitude": -43.9450948,
+        "latitude": -19.9227318
     },
-    "condition": {
-        "description": "scattered clouds",
-        "icon_url": "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png",
-        "icon": "scattered-clouds-day"
-    },
-    "temperature": {
-        "current": 25.77,
-        "humidity": 90,
-        "feels_like": 26.75,
-        "pressure": 1015
-    },
-    "wind": {
-        "speed": 1.54,
-        "degree": 10
-    },
-    "time": 1742986450
+    "daily": [
+        {
+            "condition": {
+                "description": "light rain",
+                "icon_url": "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png",
+                "icon": "rain-day"
+            },
+            "temperature": {
+                "day": 28.25,
+                "minimum": 17.81,
+                "maximum": 30.49,
+                "humidity": 55
+            },
+            "wind": {
+                "speed": 2.2
+            },
+            "time": 1743174000
+        },
+        {
+            "condition": {
+                "description": "light rain",
+                "icon_url": "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png",
+                "icon": "rain-day"
+            },
+            "temperature": {
+                "day": 28.8,
+                "minimum": 19.06,
+                "maximum": 28.8,
+                "humidity": 46
+            },
+            "wind": {
+                "speed": 2.35
+            },
+            "time": 1743260400
+        },
+        {
+            "condition": {
+                "description": "moderate rain",
+                "icon_url": "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png",
+                "icon": "rain-day"
+            },
+            "temperature": {
+                "day": 26,
+                "minimum": 18.28,
+                "maximum": 26.72,
+                "humidity": 65
+            },
+            "wind": {
+                "speed": 2.56
+            },
+            "time": 1743346800
+        },
+        {
+            "condition": {
+                "description": "moderate rain",
+                "icon_url": "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png",
+                "icon": "rain-day"
+            },
+            "temperature": {
+                "day": 26.95,
+                "minimum": 18.47,
+                "maximum": 27.84,
+                "humidity": 58
+            },
+            "wind": {
+                "speed": 2.47
+            },
+            "time": 1743429600
+        },
+        {
+            "condition": {
+                "description": "moderate rain",
+                "icon_url": "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png",
+                "icon": "rain-day"
+            },
+            "temperature": {
+                "day": 26.61,
+                "minimum": 18.8,
+                "maximum": 27.22,
+                "humidity": 61
+            },
+            "wind": {
+                "speed": 1.99
+            },
+            "time": 1743516000
+        },
+        {
+            "condition": {
+                "description": "light rain",
+                "icon_url": "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png",
+                "icon": "rain-day"
+            },
+            "temperature": {
+                "day": 25.79,
+                "minimum": 19.7,
+                "maximum": 26.85,
+                "humidity": 60
+            },
+            "wind": {
+                "speed": 3.98
+            },
+            "time": 1743602400
+        },
+        {
+            "condition": {
+                "description": "few clouds",
+                "icon_url": "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png",
+                "icon": "few-clouds-day"
+            },
+            "temperature": {
+                "day": 27.94,
+                "minimum": 18.65,
+                "maximum": 28.82,
+                "humidity": 47
+            },
+            "wind": {
+                "speed": 2.79
+            },
+            "time": 1743688800
+        }
+    ]
 }
