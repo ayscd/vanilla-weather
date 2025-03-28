@@ -1,4 +1,12 @@
-function displayForecast() {
+function getForecast(city) {
+  let apiKey = "do8ae0f5a33a8b61b41f1t1ed44678b4";
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
+}
+
+function displayForecast(info) {
+  console.log(info.data);
+
   let days = ["Thu", "Sat", "Sun", "Mon", "Tue"];
   let forecastInfo = "";
 
@@ -52,6 +60,8 @@ function updateInfo(info) {
   humidity.innerHTML = `${info.data.temperature.humidity}%`;
   wind.innerHTML = `${info.data.wind.speed}km/h`;
   date.innerHTML = displayDate(time);
+
+  getForecast(info.data.city);
 }
 
 function searchInfo(city) {
@@ -72,4 +82,3 @@ let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
 
 searchInfo("Belo Horizonte");
-displayForecast();
