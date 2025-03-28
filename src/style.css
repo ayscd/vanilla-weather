@@ -90,6 +90,14 @@ footer {
     color: rgb(29, 29, 27);
 }
 
+.forecast {
+    padding: 30px 0px 40px 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .forecast-day, .forecast-temps, .forecast-icon {
     color: rgba(29, 29, 27, 0.6);
     text-align: center;

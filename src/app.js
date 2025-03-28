@@ -1,3 +1,26 @@
+function displayForecast() {
+  let days = ["Thu", "Sat", "Sun", "Mon", "Tue"];
+  let forecastInfo = "";
+
+  days.forEach(function(day) {
+    forecastInfo = 
+    forecastInfo + 
+    `
+     <div class="forecast-info">
+      <div id="forecast-day" class="forecast-day">${day}</div>
+      <div id="forecast-icon" class="forecast-icon">🌧️</div>
+      <div id="forecast-temps" class="forecast-temps">
+        <div class="max-min-temps"><strong>28º</strong></div>
+        <div class="max-min-temps">15º</div>
+      </div>
+    </div>
+    `;
+  });
+
+  let forecast = document.querySelector("#forecast");
+  forecast.innerHTML = forecastInfo;
+}
+
 function displayDate(time) {
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   let day = days[time.getDay()];
@@ -10,7 +33,6 @@ function displayDate(time) {
 
   return `${day}, ${hours}:${minutes}`;
 }
-
 
 function updateInfo(info) {
   let temp = document.querySelector("#real-temp");
@@ -50,3 +72,4 @@ let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
 
 searchInfo("Belo Horizonte");
+displayForecast();
