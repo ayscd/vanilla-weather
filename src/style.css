@@ -90,19 +90,26 @@ footer {
     color: rgb(29, 29, 27);
 }
 
-.forecast-day, .forecast-temps {
+.forecast-day, .forecast-temps, .forecast-icon {
     color: rgba(29, 29, 27, 0.6);
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     font-style: bold;
 }
 
-.forecast-icon {
-    margin: 0 auto;
+.forecast-day {
+    margin-bottom: 10px;
+    line-height: 20px;
 }
 
 .forecast-temps {
-    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.max-min-temps {
+    padding: 0 5px;
 }
 
 .git-profile, .git-project, .host-link {
